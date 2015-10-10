@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Seletores HTML5</title>
+</head>
+<body>
+
+<nav>
+  <ul id="menu-list">
+    <li class="item"></li>
+    <li class="item"></li>
+    <li class="item"></li>
+    <li class="item"></li>
+  </ul>
+</nav>
+
+<script type="text/javascript">
+  //var itens = document.getElementsByClassName('');
+
+  function addItem(valor){
+    document.getElementById("menu-list").innerHTML += '<li>' + valor +'</li>';
+  };
+  addItem("valor");
+</script>
+
+</body>
+</html>
