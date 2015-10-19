@@ -1,4 +1,3 @@
-@@ -1,53 +0,0 @@
 #### Unoesc Chapecó
 #### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
 #### Disciplina: HTML5+CSS3
@@ -51,4 +50,36 @@ p {
 ```
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow)
+```
+
+##### Funcionalidade: Css Transitions
+##### O que é?
+O css transition do css3 é a propriedade para mudar a estilização de um elemento html de uma forma leve
+e também controlar o tempo da transição. Exemplo a propriedade :hover do css2 ao passar o mouse por um link é alterado
+instantaneamente o valor do campo. Com o transitions não precisa ser instantanea, a mudança pode ter um intervalo de tempo. Dentre este tempo, à varias propriedades, como começar a transição mais lenta e aumentar no final.
+##### Onde usar:
+Em imagens, textos, links, ou outro elemento que queira utilizar à transição.
+##### Como usar:
+
+```css
+seletor {transition: color 2s ease 3s }
+```
+##### Exemplo de uso
+
+```HTML
+<input type="text" class="exemplo_uso" />
+```
+```css
+input.exemplo_uso {
+    background:#eee;
+    border:2px solid blue;
+    transition: background 2s linear, border 3s;
+  }
+input.exemplo_uso:focus {
+  background:#ff0;
+  border-color:red;
+  }
+```
+### Referencia:
+[http://www.maujor.com/tutorial/css3-modulo-transition.php](http://www.maujor.com/tutorial/css3-modulo-transition.php)
 ```
