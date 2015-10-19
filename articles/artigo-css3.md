@@ -50,7 +50,6 @@ p {
 ```
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow)
-```
 
 ##### Funcionalidade: Css Transitions
 ##### O que é?
@@ -82,4 +81,4 @@ input.exemplo_uso:focus {
 ```
 ### Referencia:
 [http://www.maujor.com/tutorial/css3-modulo-transition.php](http://www.maujor.com/tutorial/css3-modulo-transition.php)
-```
+
