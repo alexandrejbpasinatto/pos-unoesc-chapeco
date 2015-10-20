@@ -111,3 +111,32 @@ p:not(.exemplo) {
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-1-seletores-avancados](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-1-seletores-avancados)
 
 <br>
+
+##### Funcionalidade: border-radius
+##### O que é?
+Utilizado para adicionar bordas arredondadas. O que antes só era permitido com o uso de imagens, dificultando o carregamento e renderização das páginas, com o css3 surge a propriedade border-radius que recebe o tamanho do raio de arredondamento das bordas. E cada angulo pode ter um valor diferente.
+##### Onde usar:
+Todo elemento que possui o atributo border.
+##### Como usar:
+
+```css
+seletor{
+ border-radius: rxpx rypx;
+}
+```
+##### Exemplo de uso
+
+```css
+seletor{
+  /*borda superior esquerda com 3px
+  borda superior direita com 20px
+  borda inferior direita com 50px 
+  bordar inferior esquerda com 100px */
+  border-radius: 3px 20px 50px 100px;
+}
+```
+### Referencia:
+[http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-6-css3-border-radius](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-6-css3-border-radius)
+
+<br>
+
