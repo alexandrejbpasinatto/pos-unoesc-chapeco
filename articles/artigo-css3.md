@@ -1,12 +1,12 @@
+## Artigo de revisão de CSS3
 ##### Unoesc Chapecó
 ##### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
 ##### Disciplina: HTML5+CSS3
 ##### Professor: Jean Carlo Nascimento
 ##### Acadêmico: Alexandre Jair Baron Pasinatto
 ----
-#### Artigo de revisão de CSS3
--
-##### Funcionalidade: box-shadow
+
+##### 1 - Funcionalidade: box-shadow
 ##### O que é?
 Utilizado para adicionar sombras em elementos, pode ser desde em uma div ou qualquer outro elemento de sua página html, com ele podemos adicionar sombra externa, ou sombra interna ao elemento.
 ##### Onde usar:
@@ -31,7 +31,7 @@ seletor {
 
 <br>
 
-##### Funcionalidade: text-shadow
+##### 2 - Funcionalidade: text-shadow
 ##### O que é?
 É parecido com o box shadow mas ao invés de sombras em elementos é usado para adicionar sombras em textos.
 ##### Onde usar:
@@ -57,7 +57,7 @@ p {
 
 <br>
 
-##### Funcionalidade: Css Transitions
+##### 3 - Funcionalidade: Css Transitions
 ##### O que é?
 O css transition do css3 é a propriedade para mudar a estilização de um elemento html de uma forma leve
 e também controlar o tempo da transição. Exemplo a propriedade :hover do css2 ao passar o mouse por um link é alterado
@@ -90,7 +90,7 @@ input.exemplo_uso:focus {
 
 <br>
 
-##### Funcionalidade: Seletores Css3 - Seletor Negação
+##### 4 - Funcionalidade: Seletores Css3 - Seletor Negação
 ##### O que é?
 Seletor é algo bem comum pra quem lida com css, os mais comuns são os seletores por id e classe. Porém com o surgimento do css3 surgem novas especificações para seletores, e aqui pretendo demonstrar o uso do seletor de negação que achei bem interessante e como o nome já diz ele nos permite escrever um seletor que não bate na regra atual. 
 ##### Onde usar:
@@ -113,7 +113,7 @@ p:not(.exemplo) {
 
 <br>
 
-##### Funcionalidade: border-radius
+##### 5 - Funcionalidade: border-radius
 ##### O que é?
 Utilizado para adicionar bordas arredondadas. O que antes só era permitido com o uso de imagens, dificultando o carregamento e renderização das páginas, com o css3 surge a propriedade border-radius que recebe o tamanho do raio de arredondamento das bordas. E cada angulo pode ter um valor diferente.
 ##### Onde usar:
@@ -141,7 +141,7 @@ seletor{
 
 <br>
 
-##### Funcionalidade: Gradientes
+##### 6 - Funcionalidade: Gradientes
 ##### O que é?
 Funcionalidade utilizada para criar degrades entre 2 ou mais cores. Que antes também só era possível com o uso de imagens. 
 Existem os gradientes lineares e radiais. 
@@ -170,6 +170,3 @@ background-image: linear-gradient(to bottom, white, purple);
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-11-css3-gradientes](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-11-css3-gradientes)
 
 <br>
-
-
-
