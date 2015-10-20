@@ -4,6 +4,7 @@
 #### Professor: Jean Carlo Nascimento
 #### Acadêmico: Alexandre Jair Baron Pasinatto
 ### Artigo de revisão de CSS3
+<br>
 ##### Funcionalidade: box-shadow
 ##### O que é?
 Utilizado para adicionar sombras em elementos, pode ser desde em uma div ou qualquer outro elemento de sua página html, com ele podemos adicionar sombra externa, ou sombra interna ao elemento.
@@ -26,6 +27,8 @@ seletor {
 ```
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-8-css3-box-shadow](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-8-css3-box-shadow)
+
+<br>
 
 ##### Funcionalidade: text-shadow
 ##### O que é?
@@ -50,6 +53,8 @@ p {
 ```
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow)
+
+<br>
 
 ##### Funcionalidade: Css Transitions
 ##### O que é?
@@ -82,3 +87,27 @@ input.exemplo_uso:focus {
 ### Referencia:
 [http://www.maujor.com/tutorial/css3-modulo-transition.php](http://www.maujor.com/tutorial/css3-modulo-transition.php)
 
+<br>
+
+##### Funcionalidade: Seletores Css3 - Seletor Negação
+##### O que é?
+Seletor é algo bem comum pra quem lida com css, os mais comuns são os seletores por id e classe. Porém com o surgimento do css3 surgem novas especificações para seletores, e aqui pretendo demonstrar o uso do seletor de negação que achei bem interessante e como o nome já diz ele nos permite escrever um seletor que não bate na regra atual. 
+##### Onde usar:
+Em todo css que queira uma regra diferente de negação para uma determinada parte de seu html.
+##### Como usar:
+
+```css
+seletor:not(.seletor){ color: blue; }
+```
+##### Exemplo de uso
+No exemplo abaixo pegamos todos os seletores que não tem a classe "exemplo".
+
+```css
+p:not(.exemplo) {
+  color: blue;
+}
+```
+### Referencia:
+[http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-1-seletores-avancados](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-1-seletores-avancados)
+
+<br>
