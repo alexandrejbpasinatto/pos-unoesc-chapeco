@@ -29,8 +29,6 @@ seletor {
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-8-css3-box-shadow](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-8-css3-box-shadow)
 
-<br>
-
 ##### 2 - Funcionalidade: text-shadow
 ##### O que é?
 É parecido com o box shadow mas ao invés de sombras em elementos é usado para adicionar sombras em textos.
@@ -55,7 +53,6 @@ p {
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow)
 
-<br>
 
 ##### 3 - Funcionalidade: Css Transitions
 ##### O que é?
@@ -88,7 +85,6 @@ input.exemplo_uso:focus {
 ### Referencia:
 [http://www.maujor.com/tutorial/css3-modulo-transition.php](http://www.maujor.com/tutorial/css3-modulo-transition.php)
 
-<br>
 
 ##### 4 - Funcionalidade: Seletores Css3 - Seletor Negação
 ##### O que é?
@@ -111,7 +107,6 @@ p:not(.exemplo) {
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-1-seletores-avancados](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-1-seletores-avancados)
 
-<br>
 
 ##### 5 - Funcionalidade: border-radius
 ##### O que é?
@@ -139,7 +134,6 @@ seletor{
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-6-css3-border-radius](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-6-css3-border-radius)
 
-<br>
 
 ##### 6 - Funcionalidade: Gradientes
 ##### O que é?
@@ -161,7 +155,7 @@ Sintaxe básica:
 
 ```css
 seletor {
-background-image: linear-gradient(to bottom, white, purple);
+  background-image: linear-gradient(to bottom, white, purple);
 }
 ```
 ### Referencia:
@@ -169,4 +163,26 @@ background-image: linear-gradient(to bottom, white, purple);
 
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-11-css3-gradientes](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-11-css3-gradientes)
 
-<br>
+
+##### 7 - Funcionalidade: Transform
+##### O que é?
+Esta propredade é utilizada para alterar a posição de um elemento, girar, mover inclinar, ou monstra-lo em uma escala menor pra maior ou vice e versa, ou seja, irá modificar a forma do elemento.
+##### Onde usar:
+Todo elemento ou imagem que seja necessário aplicar uma transformação.
+##### Como usar:
+Sintaxe geral:
+```css
+transform: none|transform-functions|initial|inherit;
+```
+##### Exemplo de uso
+Exemplo que rotaciona elemento ou imagem em 180 graus.
+```css
+seletor {
+  transform: rotate(180deg);
+}
+```
+### Referencia:
+[http://www.w3schools.com/cssref/css3_pr_transform.asp](http://www.w3schools.com/cssref/css3_pr_transform.asp)
+
+[http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-15-css3-transforms](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-15-css3-transforms)
+
