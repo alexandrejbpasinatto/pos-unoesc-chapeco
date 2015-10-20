@@ -29,6 +29,7 @@ seletor {
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-8-css3-box-shadow](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-8-css3-box-shadow)
 
+--
 ##### 2 - Funcionalidade: text-shadow
 ##### O que é?
 É parecido com o box shadow mas ao invés de sombras em elementos é usado para adicionar sombras em textos.
@@ -48,12 +49,11 @@ Exemplo passando mais de uma sombra no mesmo texto:
 p {
   text-shadow: 5px 5px 5px black, -5px -5px -5px black;
 }
-
 ```
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-7-css3-text-shadow)
 
-
+--
 ##### 3 - Funcionalidade: Css Transitions
 ##### O que é?
 O css transition do css3 é a propriedade para mudar a estilização de um elemento html de uma forma leve
@@ -85,7 +85,7 @@ input.exemplo_uso:focus {
 ### Referencia:
 [http://www.maujor.com/tutorial/css3-modulo-transition.php](http://www.maujor.com/tutorial/css3-modulo-transition.php)
 
-
+--
 ##### 4 - Funcionalidade: Seletores Css3 - Seletor Negação
 ##### O que é?
 Seletor é algo bem comum pra quem lida com css, os mais comuns são os seletores por id e classe. Porém com o surgimento do css3 surgem novas especificações para seletores, e aqui pretendo demonstrar o uso do seletor de negação que achei bem interessante e como o nome já diz ele nos permite escrever um seletor que não bate na regra atual. 
@@ -107,7 +107,7 @@ p:not(.exemplo) {
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-1-seletores-avancados](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-1-seletores-avancados)
 
-
+--
 ##### 5 - Funcionalidade: border-radius
 ##### O que é?
 Utilizado para adicionar bordas arredondadas. O que antes só era permitido com o uso de imagens, dificultando o carregamento e renderização das páginas, com o css3 surge a propriedade border-radius que recebe o tamanho do raio de arredondamento das bordas. E cada angulo pode ter um valor diferente.
@@ -134,7 +134,7 @@ seletor{
 ### Referencia:
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-6-css3-border-radius](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-6-css3-border-radius)
 
-
+--
 ##### 6 - Funcionalidade: Gradientes
 ##### O que é?
 Funcionalidade utilizada para criar degrades entre 2 ou mais cores. Que antes também só era possível com o uso de imagens. 
@@ -163,7 +163,7 @@ seletor {
 
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-11-css3-gradientes](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-11-css3-gradientes)
 
-
+--
 ##### 7 - Funcionalidade: Transform
 ##### O que é?
 Esta propredade é utilizada para alterar a posição de um elemento, girar, mover inclinar, ou monstra-lo em uma escala menor pra maior ou vice e versa, ou seja, irá modificar a forma do elemento.
