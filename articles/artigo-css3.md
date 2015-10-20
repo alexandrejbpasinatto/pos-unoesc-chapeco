@@ -186,3 +186,50 @@ seletor {
 
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-15-css3-transforms](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-15-css3-transforms)
 
+--
+##### 8 - Funcionalidade: Animation
+##### O que é?
+Funcionalidade do css3 que permite gerar animações nos elementos html, sem utilizar javascript ou flash.
+Para lidar com esta função precisamos utilizar KeyFrames que descreve como cada elemento vai ser animado. E cada keyframe contém as propriedades Css.
+##### Onde usar:
+Qualquer elemento html que deseja aplicar uma animação.
+##### Como usar:
+Devemos definir qual o valor do keyframe que vai de 0 a 100, ou seja, um valor inicial e um final.
+Sitaxe para criar um keyframe
+```css
+@keyframes exemplo {
+   0%   { background: black;}
+   25%  { background: green;}
+   50%  { background: blue;}
+   75%  { background: red;}
+   100% { background: blue;}
+}
+```
+
+##### Exemplo de uso
+```HTML
+<div class="exemplo_animation"></div>
+```
+```css
+.exemplo_animation { animation: teste_animacao 5s ease infinite alternate; }
+```
+```
+@keyframes teste_animacao {
+  0%   { 
+    background: red;
+    width: 150px;
+  }
+  25%  { background: green; }
+  50%  { background: blue; }
+  75%  { background: red; }
+  100% { 
+    background: blue;
+    width: 250px;
+  }
+}
+```
+###### Veja este exemplo [aqui](http://codepen.io/anon/pen/bVaLMY#0)
+### Referencia:
+[http://tableless.com.br/css3-animation-keyframe/](http://tableless.com.br/css3-animation-keyframe/)
+
+
