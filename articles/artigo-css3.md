@@ -1,10 +1,11 @@
-#### Unoesc Chapecó
-#### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
-#### Disciplina: HTML5+CSS3
-#### Professor: Jean Carlo Nascimento
-#### Acadêmico: Alexandre Jair Baron Pasinatto
-### Artigo de revisão de CSS3
-<br>
+##### Unoesc Chapecó
+##### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
+##### Disciplina: HTML5+CSS3
+##### Professor: Jean Carlo Nascimento
+##### Acadêmico: Alexandre Jair Baron Pasinatto
+----
+#### Artigo de revisão de CSS3
+-
 ##### Funcionalidade: box-shadow
 ##### O que é?
 Utilizado para adicionar sombras em elementos, pode ser desde em uma div ou qualquer outro elemento de sua página html, com ele podemos adicionar sombra externa, ou sombra interna ao elemento.
@@ -139,4 +140,36 @@ seletor{
 [http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-6-css3-border-radius](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-6-css3-border-radius)
 
 <br>
+
+##### Funcionalidade: Gradientes
+##### O que é?
+Funcionalidade utilizada para criar degrades entre 2 ou mais cores. Que antes também só era possível com o uso de imagens. 
+Existem os gradientes lineares e radiais. 
+##### Onde usar:
+Todo elemento que possui o atributo background.
+##### Como usar:
+Sintaxe básica:
+```css
+.seletor_linear {
+  background: linear-gradient(white, blue);
+}
+.seletor_radial {
+  background: radial-gradient(white, blue);
+}
+```
+##### Exemplo de uso
+
+```css
+seletor {
+background-image: linear-gradient(to bottom, white, purple);
+}
+```
+### Referencia:
+[http://tableless.com.br/como-usar-gradient-no-css-de-forma-consciente/](http://tableless.com.br/como-usar-gradient-no-css-de-forma-consciente/)
+
+[http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-11-css3-gradientes](http://www.caelum.com.br/apostila-html-css-javascript/css-avancado/#6-11-css3-gradientes)
+
+<br>
+
+
 
