@@ -5,7 +5,7 @@
 ##### Professor: Jean Carlo Nascimento
 ##### Acadêmico: Alexandre Jair Baron Pasinatto
 ----
-
+<br>
 ##### 1 - Funcionalidade: box-shadow
 ##### O que é?
 Utilizado para adicionar sombras em elementos, pode ser desde em uma div ou qualquer outro elemento de sua página html, com ele podemos adicionar sombra externa, ou sombra interna ao elemento.
