@@ -31,7 +31,10 @@ Para melhor organizar seu sistema. Reuso de componentes.
 #####4) Onde usar?
 Em qualquer sistema web que queira aplicar o conceito de atomic design. 
 #####5) Exemplos:
-
+***Átomo***
+```
+<input type="text" placeholder="átomo"/>
+```
 #####6) Referências
 [http://bradfrost.com/blog/post/atomic-web-design/](http://bradfrost.com/blog/post/atomic-web-design/)</br>
 [http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)
