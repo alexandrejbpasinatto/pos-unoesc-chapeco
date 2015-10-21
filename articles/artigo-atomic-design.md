@@ -26,12 +26,12 @@ Atomic Design é uma metodologia inspirada na quimica criada por Brad Frost para
 **Páginas:** é a evolução do template, já com cores, conteúdo, visualizando o sistema como um todo. 
 ou o produto final. 
 
-
 #####3) Para que usar
- 
+Para melhor organizar seu sistema. Reuso de componentes.
 #####4) Onde usar?
-
+Em qualquer sistema web que queira aplicar o conceito de atomic design. 
 #####5) Exemplos:
 
 #####6) Referências
-[http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)</br>
+[http://bradfrost.com/blog/post/atomic-web-design/](http://bradfrost.com/blog/post/atomic-web-design/)</br>
+[http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)
