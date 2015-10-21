@@ -64,6 +64,6 @@ Segue exemplo [aqui](http://demo.patternlab.io/patterns/04-pages-00-homepage/04-
 
 
 #####6) Referências
-[http://patternlab.io/](http://patternlab.io/)
+[http://patternlab.io/](http://patternlab.io/)</br>
 [http://bradfrost.com/blog/post/atomic-web-design/](http://bradfrost.com/blog/post/atomic-web-design/)</br>
 [http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)
