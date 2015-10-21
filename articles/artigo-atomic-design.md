@@ -31,10 +31,24 @@ Para melhor organizar seu sistema. Reuso de componentes.
 #####4) Onde usar?
 Em qualquer sistema web que queira aplicar o conceito de atomic design. 
 #####5) Exemplos:
-***Átomo***
+Átomo
 ```
 <input type="text" placeholder="átomo"/>
 ```
+##Molécula:##
+```
+<form action="#" method="post">
+  <fieldset>
+    <legend>Pesquisar</legend>
+    <label>Buscar</label>
+    <input type="search" placeholder="buscar" />
+    <button>
+      <span>...</span>
+    </button>
+  </fieldset>
+</form>
+```
+Formulario simples de pesquisa. Exemplo implementado no http://codepen.io/pen/ disponivel [aqui](http://codepen.io/anon/pen/WQMeXZ)
 #####6) Referências
 [http://bradfrost.com/blog/post/atomic-web-design/](http://bradfrost.com/blog/post/atomic-web-design/)</br>
 [http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)
