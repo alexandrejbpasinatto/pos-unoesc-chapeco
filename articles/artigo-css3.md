@@ -232,4 +232,34 @@ Sitaxe para criar um keyframe
 ### Referencia:
 [http://tableless.com.br/css3-animation-keyframe/](http://tableless.com.br/css3-animation-keyframe/)
 
+--
+##### 8 - Funcionalidade: Multiple Columns
+##### O que é?
+Nova forma de organizar seu texto através de colunas, com esta funcionalidade podemos definir um número de coluna, ou o tamanho da coluna, forma facil e rapida de organizar um texto em colunas.
+##### Onde usar:
+Em textos que são divididos em colunas.
+##### Como usar:
+Sintaxe básica para aplicar três colunas em um texto
+```css
+seletor{
+ column-count: 3;
+ }
+```
+
+##### Exemplo de uso
+
+```HTML
+<div class="example_multiple_coluns">Texto aqui...</div>
+```
+```css
+.exemplo_multiple_coluns {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+   column-count: 3;
+}
+```
+
+###### Veja este exemplo [aqui](http://codepen.io/anon/pen/avEGwq)
+### Referencia:
+[http://www.w3schools.com/css/css3_multiple_columns.asp](http://www.w3schools.com/css/css3_multiple_columns.asp)
 
