@@ -233,7 +233,7 @@ Sitaxe para criar um keyframe
 [http://tableless.com.br/css3-animation-keyframe/](http://tableless.com.br/css3-animation-keyframe/)
 
 --
-##### 8 - Funcionalidade: Multiple Columns
+##### 9 - Funcionalidade: Multiple Columns
 ##### O que é?
 Nova forma de organizar seu texto através de colunas, com esta funcionalidade podemos definir um número de coluna, ou o tamanho da coluna, forma facil e rapida de organizar um texto em colunas.
 ##### Onde usar:
@@ -262,4 +262,38 @@ seletor{
 ###### Veja este exemplo [aqui](http://codepen.io/anon/pen/avEGwq)
 ### Referencia:
 [http://www.w3schools.com/css/css3_multiple_columns.asp](http://www.w3schools.com/css/css3_multiple_columns.asp)
+
+--
+##### 10 - Funcionalidade: Media Queries
+##### O que é?
+Utilizado para definir diferentes formatações para diversos tipos de dispositivos. Exemplo caso o css elaborado
+se encaixa nas especificações do dispositivo será executado, caso contrario, não será executado. O Css3 utiliza a capacidade 
+do dispositivo para definir as media queries.
+##### Onde usar:
+Em websites que necessitam ser acessado por diferentes dispositivos.
+##### Como usar:
+Sintaxe básica 
+```css
+@media not|only mediatype and (expressions) {
+  CSS-Code;
+}
+```
+##### Exemplo de uso
+
+```css
+body {
+    background-color: red;
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: blue;
+    }
+}
+```
+
+###### Veja este exemplo [aqui](http://codepen.io/anon/pen/gaozBO)
+### Referencia:
+[http://www.w3schools.com/css/css3_mediaqueries.asp](http://www.w3schools.com/css/css3_mediaqueries.asp)
+
+
 
