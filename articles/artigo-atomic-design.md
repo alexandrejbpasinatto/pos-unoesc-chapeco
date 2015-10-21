@@ -35,7 +35,7 @@ Em qualquer sistema web que queira aplicar o conceito de atomic design.
 ```
 <input type="text" placeholder="átomo"/>
 ```
-##Molécula:##
+Molécula:
 ```
 <form action="#" method="post">
   <fieldset>
@@ -49,6 +49,21 @@ Em qualquer sistema web que queira aplicar o conceito de atomic design.
 </form>
 ```
 Formulario simples de pesquisa. Exemplo implementado no http://codepen.io/pen/ disponivel [aqui](http://codepen.io/anon/pen/WQMeXZ)
+
+Organismo:
+
+Segue exemplo [aqui](http://demo.patternlab.io/patterns/02-organisms-00-global-00-header/02-organisms-00-global-00-header.html#) Retirado do site http://patternlab.io/
+
+Template:
+
+Segue exemplo [aqui](http://demo.patternlab.io/patterns/03-templates-00-homepage/03-templates-00-homepage.html) Retirado do site http://patternlab.io/
+
+Página:
+
+Segue exemplo [aqui](http://demo.patternlab.io/patterns/04-pages-00-homepage/04-pages-00-homepage.html) Retirado do site http://patternlab.io/
+
+
 #####6) Referências
+[http://patternlab.io/](http://patternlab.io/)
 [http://bradfrost.com/blog/post/atomic-web-design/](http://bradfrost.com/blog/post/atomic-web-design/)</br>
 [http://tableless.com.br/o-que-e-design-atomic/](http://tableless.com.br/o-que-e-design-atomic/)
