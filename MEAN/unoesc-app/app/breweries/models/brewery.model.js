@@ -13,7 +13,7 @@ var BrewerySchema = new Schema({
 		type: String
 	},
 	 updated: { 
-	 	type: Date
+	 	type: Date, default: Date.now  
 	 },
 	  created: { 
 	 	type: Date, default: Date.now  
