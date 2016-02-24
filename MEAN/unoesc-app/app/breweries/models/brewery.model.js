@@ -11,7 +11,13 @@ var BrewerySchema = new Schema({
 	},
 	description: {
 		type: String
-	}
+	},
+	 updated: { 
+	 	type: Date
+	 },
+	  created: { 
+	 	type: Date, default: Date.now  
+	 }
 });
 
 module.exports = mongoose.model('Brewery', BrewerySchema)

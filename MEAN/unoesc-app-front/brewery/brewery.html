@@ -16,6 +16,8 @@
                 <tr>
                     <th>Nome</th>
                     <th>Descrição</th>
+                    <th>Data Criação</th>
+                    <th>Data Modificação</th>
                     <th></th>
                 </tr>
             </thead>
@@ -23,6 +25,9 @@
                 <tr ng-repeat="brewery in vm.breweries">
                     <td>{{ brewery.name }}</td>
                     <td>{{ brewery.description }}</td>
+                    <td > {{ brewery.created  | date: "dd/MM/yyyy HH:mm:ss"}}</td>
+                    <td>{{ brewery.updated | date: "dd/MM/yyyy HH:mm:ss"}}</td>
+                    <td></td>
                     <td>
                         <button type="button" ng-click="vm.populate(brewery)" class="btn btn-xs btn-default">
                             <span class="glyphicon glyphicon-pencil"></span>
